@@ -9,7 +9,8 @@
 # ==============================================================================
 
 PackagesCSV="/tmp/packages.csv"
-# curl https://raw.githubusercontent.com/Kimitzuni/aris/master/packages.csv?token=GHSAT0AAAAAACM4T5BE6NIPLMHONUQPOO7SZNT4ZDQ -o $PackagesCSV -s
+PackagesCSV_URL="https://gitlab.com/Kimitzuni/aris/-/raw/master/packages.csv"
+[ ! -f "$PackagesCSV" ] && curl -s $PackagesCSV_URL -o $PackagesCSV
 cp packages.csv $PackagesCSV
 
 ##
