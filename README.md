@@ -12,7 +12,7 @@ that are needed to make my dotfiles work, along with installing the dotfiles
 themselves.
 
 This script will work on a clean Arch or Artix Linux installation, and will
-install the packages that are specified in [packages.csv](package.csv). The
+install the packages that are specified in [packages.csv](packages.csv). The
 script must be ran as root, **not** as the user you want to install the
 dotfiles to.
 
