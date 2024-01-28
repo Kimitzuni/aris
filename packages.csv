@@ -1,4 +1,7 @@
 # TAG, Package Name
+P,yt-dlp
+P,autoconf-archive
+P,qutebrowser
 P,xorg-server
 P,xorg-xinit
 P,xorg-fonts-75dpi
@@ -16,7 +19,7 @@ P,alsa-utils
 P,pulseaudio
 P,pulsemixer
 P,mpc
-P,mpd
+# P,mpd
 P,ncmpcpp
 P,base-devel
 P,git
@@ -34,6 +37,7 @@ P,notmuch
 P,newsboat
 P,python-pywal
 P,python-neovim
+P,neovim
 P,zsh
 P,bash-completion
 P,ranger
@@ -62,8 +66,8 @@ P,sox
 P,lz4
 P,p7zip
 P,cryptsetup
-P,btfs-progs
-P,btrfs
+P,btrfs-progs
+P,btfs
 P,ntfs-3g
 P,arch-wiki-docs
 P,arch-wiki-lite
@@ -80,9 +84,13 @@ P,texlive-formatsextra
 P,texlive-latex
 P,texlive-latexextra
 P,texlive-mathscience
-A,htop-vim
-A,simple-mtpfs
 P_ORC,mpd-openrc
 P_DINIT,mpd-dinit
 P_S6,mpd-s6
 P_RUNIT,mpd-runit
+A,htop-vim
+A,simple-mtpfs
+G,https://gitlab.com/Kimitzuni/wallpapers.git
+G,https://gitlab.com/Kimitzuni/artixrice.git
+G,https://gitlab.com/Kimitzuni/dmenu.git
+G,https://gitlab.com/Kimitzuni/st.git
